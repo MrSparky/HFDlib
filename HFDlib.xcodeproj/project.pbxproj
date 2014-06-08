@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC61818C1944E60C003143A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC61818B1944E60C003143A8 /* Foundation.framework */; };
+		EC6181911944E60C003143A8 /* HFDlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC6181901944E60C003143A8 /* HFDlib.h */; };
+		EC6181931944E60C003143A8 /* HFDlib.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181921944E60C003143A8 /* HFDlib.m */; };
+		EC61819A1944E60C003143A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6181991944E60C003143A8 /* XCTest.framework */; };
+		EC61819B1944E60C003143A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC61818B1944E60C003143A8 /* Foundation.framework */; };
+		EC61819D1944E60C003143A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC61819C1944E60C003143A8 /* UIKit.framework */; };
+		EC6181A01944E60C003143A8 /* libHFDlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6181881944E60C003143A8 /* libHFDlib.a */; };
+		EC6181A61944E60C003143A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC6181A41944E60C003143A8 /* InfoPlist.strings */; };
+		EC6181A81944E60C003143A8 /* HFDlibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181A71944E60C003143A8 /* HFDlibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC61819E1944E60C003143A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6181801944E60C003143A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6181871944E60C003143A8;
+			remoteInfo = HFDlib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC6181861944E60C003143A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EC6181911944E60C003143A8 /* HFDlib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC6181881944E60C003143A8 /* libHFDlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHFDlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC61818B1944E60C003143A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC61818F1944E60C003143A8 /* HFDlib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HFDlib-Prefix.pch"; sourceTree = "<group>"; };
+		EC6181901944E60C003143A8 /* HFDlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFDlib.h; sourceTree = "<group>"; };
+		EC6181921944E60C003143A8 /* HFDlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFDlib.m; sourceTree = "<group>"; };
+		EC6181981944E60C003143A8 /* HFDlibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFDlibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6181991944E60C003143A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC61819C1944E60C003143A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC6181A31944E60C003143A8 /* HFDlibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HFDlibTests-Info.plist"; sourceTree = "<group>"; };
+		EC6181A51944E60C003143A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC6181A71944E60C003143A8 /* HFDlibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFDlibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6181851944E60C003143A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC61818C1944E60C003143A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6181951944E60C003143A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC61819A1944E60C003143A8 /* XCTest.framework in Frameworks */,
+				EC61819D1944E60C003143A8 /* UIKit.framework in Frameworks */,
+				EC6181A01944E60C003143A8 /* libHFDlib.a in Frameworks */,
+				EC61819B1944E60C003143A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC61817F1944E60C003143A8 = {
+			isa = PBXGroup;
+			children = (
+				EC61818D1944E60C003143A8 /* HFDlib */,
+				EC6181A11944E60C003143A8 /* HFDlibTests */,
+				EC61818A1944E60C003143A8 /* Frameworks */,
+				EC6181891944E60C003143A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6181891944E60C003143A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6181881944E60C003143A8 /* libHFDlib.a */,
+				EC6181981944E60C003143A8 /* HFDlibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC61818A1944E60C003143A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC61818B1944E60C003143A8 /* Foundation.framework */,
+				EC6181991944E60C003143A8 /* XCTest.framework */,
+				EC61819C1944E60C003143A8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC61818D1944E60C003143A8 /* HFDlib */ = {
+			isa = PBXGroup;
+			children = (
+				EC6181901944E60C003143A8 /* HFDlib.h */,
+				EC6181921944E60C003143A8 /* HFDlib.m */,
+				EC61818E1944E60C003143A8 /* Supporting Files */,
+			);
+			path = HFDlib;
+			sourceTree = "<group>";
+		};
+		EC61818E1944E60C003143A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC61818F1944E60C003143A8 /* HFDlib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC6181A11944E60C003143A8 /* HFDlibTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6181A71944E60C003143A8 /* HFDlibTests.m */,
+				EC6181A21944E60C003143A8 /* Supporting Files */,
+			);
+			path = HFDlibTests;
+			sourceTree = "<group>";
+		};
+		EC6181A21944E60C003143A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6181A31944E60C003143A8 /* HFDlibTests-Info.plist */,
+				EC6181A41944E60C003143A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6181871944E60C003143A8 /* HFDlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6181AB1944E60C003143A8 /* Build configuration list for PBXNativeTarget "HFDlib" */;
+			buildPhases = (
+				EC6181841944E60C003143A8 /* Sources */,
+				EC6181851944E60C003143A8 /* Frameworks */,
+				EC6181861944E60C003143A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFDlib;
+			productName = HFDlib;
+			productReference = EC6181881944E60C003143A8 /* libHFDlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC6181971944E60C003143A8 /* HFDlibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6181AE1944E60C003143A8 /* Build configuration list for PBXNativeTarget "HFDlibTests" */;
+			buildPhases = (
+				EC6181941944E60C003143A8 /* Sources */,
+				EC6181951944E60C003143A8 /* Frameworks */,
+				EC6181961944E60C003143A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC61819F1944E60C003143A8 /* PBXTargetDependency */,
+			);
+			name = HFDlibTests;
+			productName = HFDlibTests;
+			productReference = EC6181981944E60C003143A8 /* HFDlibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6181801944E60C003143A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LiteGear;
+			};
+			buildConfigurationList = EC6181831944E60C003143A8 /* Build configuration list for PBXProject "HFDlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC61817F1944E60C003143A8;
+			productRefGroup = EC6181891944E60C003143A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6181871944E60C003143A8 /* HFDlib */,
+				EC6181971944E60C003143A8 /* HFDlibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6181961944E60C003143A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6181A61944E60C003143A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6181841944E60C003143A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6181931944E60C003143A8 /* HFDlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6181941944E60C003143A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6181A81944E60C003143A8 /* HFDlibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC61819F1944E60C003143A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6181871944E60C003143A8 /* HFDlib */;
+			targetProxy = EC61819E1944E60C003143A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6181A41944E60C003143A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6181A51944E60C003143A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6181A91944E60C003143A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6181AA1944E60C003143A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6181AC1944E60C003143A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HFDlib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HFDlib/HFDlib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC6181AD1944E60C003143A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HFDlib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HFDlib/HFDlib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC6181AF1944E60C003143A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HFDlib/HFDlib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HFDlibTests/HFDlibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC6181B01944E60C003143A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HFDlib/HFDlib-Prefix.pch";
+				INFOPLIST_FILE = "HFDlibTests/HFDlibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6181831944E60C003143A8 /* Build configuration list for PBXProject "HFDlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6181A91944E60C003143A8 /* Debug */,
+				EC6181AA1944E60C003143A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6181AB1944E60C003143A8 /* Build configuration list for PBXNativeTarget "HFDlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6181AC1944E60C003143A8 /* Debug */,
+				EC6181AD1944E60C003143A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC6181AE1944E60C003143A8 /* Build configuration list for PBXNativeTarget "HFDlibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6181AF1944E60C003143A8 /* Debug */,
+				EC6181B01944E60C003143A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6181801944E60C003143A8 /* Project object */;
+}
