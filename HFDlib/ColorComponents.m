@@ -116,6 +116,14 @@
 		blue1 = components[2];
 		alpha1 = components[3];
 	}
+    else if (numComponents == 2)
+    {
+        const CGFloat *components = CGColorGetComponents(cgColor);
+		red1 = components[0]; // Component 0 is really grayscale
+		green1 = components[0]; // Component 0 is really grayscale
+		blue1 = components[0]; // Component 0 is really grayscale
+		alpha1 = components[1];
+    }
 	
 	cgColor = [otherColor CGColor];
 	numComponents = CGColorGetNumberOfComponents(cgColor);
@@ -127,6 +135,14 @@
 		blue2 = components[2];
 		alpha2 = components[3];
 	}
+    else if (numComponents == 2)
+    {
+        const CGFloat *components = CGColorGetComponents(cgColor);
+		red2 = components[0]; // Component 0 is really grayscale
+		green2 = components[0]; // Component 0 is really grayscale
+		blue2 = components[0]; // Component 0 is really grayscale
+		alpha2 = components[1];
+    }
 	
 	red = (red1 * weight) + (red2 * (1.0 - weight));
 	green = (green1 * weight) + (green2 * (1.0 - weight));
@@ -140,6 +156,7 @@
 			withColor2:(UIColor *)color2 withWeight2:(CGFloat)weight2
 			withColor3:(UIColor *)color3 withWeight3:(CGFloat)weight3
 {
+    // TBD - this function is not implemented
 	return [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1.0];
 }
 
