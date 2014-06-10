@@ -52,18 +52,18 @@
 -(void) setCommand:(HFDCommand)Command
 {
     _Buffer[0] &= 0xF8;
-    _Buffer[0] |= (Byte)Command;
+    _Buffer[0] |= ((Byte)Command & 0x07);
 }
 
 -(NSInteger) Address
 {
-    return (_Buffer[0] & 0xF8) >> 3;
+    return ((Byte)(_Buffer[0] & 0xF8) >> 3);
 }
 
 -(void) setAddress:(NSInteger)Address
 {
     _Buffer[0] &= 0x07;
-    _Buffer[0] |= ((Byte)Address | 0xF8) << 3;
+    _Buffer[0] |= ((Byte)Address & 0x1F) << 3;
 }
 
 -(Byte) Data1

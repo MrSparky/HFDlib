@@ -22,6 +22,11 @@
 		const CGFloat *components = CGColorGetComponents(cgColor);
 		return components[0];
 	}
+    else if(numComponents == 2)
+    {
+        const CGFloat *components = CGColorGetComponents(cgColor);
+		return components[0];
+    }
 	return -1;
 }
 
@@ -36,6 +41,12 @@
 		const CGFloat *components = CGColorGetComponents(cgColor);
 		return components[1];
 	}
+    else if(numComponents == 2)
+    {
+        const CGFloat *components = CGColorGetComponents(cgColor);
+		return components[0];
+    }
+
 	return -1;
 }
 
@@ -50,6 +61,12 @@
 		const CGFloat *components = CGColorGetComponents(cgColor);
 		return components[2];
 	}
+    else if(numComponents == 2)
+    {
+        const CGFloat *components = CGColorGetComponents(cgColor);
+		return components[0];
+    }
+
 	return -1;
 }
 
@@ -64,6 +81,11 @@
 		const CGFloat *components = CGColorGetComponents(cgColor);
 		return components[3];
 	}
+    else if(numComponents == 2)
+    {
+        const CGFloat *components = CGColorGetComponents(cgColor);
+		return components[1];
+    }
 	return -1;
 }
 
