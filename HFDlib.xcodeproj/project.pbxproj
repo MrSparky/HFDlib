@@ -13,11 +13,12 @@
 		EC61819D1944E60C003143A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC61819C1944E60C003143A8 /* UIKit.framework */; };
 		EC6181A01944E60C003143A8 /* libHFDlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6181881944E60C003143A8 /* libHFDlib.a */; };
 		EC6181A61944E60C003143A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC6181A41944E60C003143A8 /* InfoPlist.strings */; };
-		EC6181A81944E60C003143A8 /* HFDlibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181A71944E60C003143A8 /* HFDlibTests.m */; };
 		EC6181B51944E629003143A8 /* HFDInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181B21944E629003143A8 /* HFDInterface.m */; };
 		EC6181B61944E629003143A8 /* HFDPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181B41944E629003143A8 /* HFDPacket.m */; };
 		EC6181B91944E8CF003143A8 /* ColorComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181B81944E8CF003143A8 /* ColorComponents.m */; };
 		EC6181BC1944EB36003143A8 /* NSStreamTcpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181BB1944EB36003143A8 /* NSStreamTcpHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC6181BF1946D87B003143A8 /* ColorComponentsTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181BE1946D87B003143A8 /* ColorComponentsTestCase.m */; };
+		EC6181C11946E465003143A8 /* HFDPacketTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181C01946E465003143A8 /* HFDPacketTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,6 @@
 		EC61819C1944E60C003143A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EC6181A31944E60C003143A8 /* HFDlibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HFDlibTests-Info.plist"; sourceTree = "<group>"; };
 		EC6181A51944E60C003143A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EC6181A71944E60C003143A8 /* HFDlibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFDlibTests.m; sourceTree = "<group>"; };
 		EC6181B11944E629003143A8 /* HFDInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFDInterface.h; sourceTree = "<group>"; };
 		EC6181B21944E629003143A8 /* HFDInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDInterface.m; sourceTree = "<group>"; };
 		EC6181B31944E629003143A8 /* HFDPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFDPacket.h; sourceTree = "<group>"; };
@@ -61,6 +61,8 @@
 		EC6181BA1944EB36003143A8 /* NSStreamTcpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStreamTcpHelper.h; sourceTree = "<group>"; };
 		EC6181BB1944EB36003143A8 /* NSStreamTcpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStreamTcpHelper.m; sourceTree = "<group>"; };
 		EC6181BD19451EAA003143A8 /* HFDTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFDTypes.h; sourceTree = "<group>"; };
+		EC6181BE1946D87B003143A8 /* ColorComponentsTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorComponentsTestCase.m; sourceTree = "<group>"; };
+		EC6181C01946E465003143A8 /* HFDPacketTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFDPacketTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +145,9 @@
 		EC6181A11944E60C003143A8 /* HFDlibTests */ = {
 			isa = PBXGroup;
 			children = (
-				EC6181A71944E60C003143A8 /* HFDlibTests.m */,
 				EC6181A21944E60C003143A8 /* Supporting Files */,
+				EC6181BE1946D87B003143A8 /* ColorComponentsTestCase.m */,
+				EC6181C01946E465003143A8 /* HFDPacketTestCase.m */,
 			);
 			path = HFDlibTests;
 			sourceTree = "<group>";
@@ -250,7 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC6181A81944E60C003143A8 /* HFDlibTests.m in Sources */,
+				EC6181C11946E465003143A8 /* HFDPacketTestCase.m in Sources */,
+				EC6181BF1946D87B003143A8 /* ColorComponentsTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
