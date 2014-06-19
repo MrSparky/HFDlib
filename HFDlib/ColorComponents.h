@@ -17,7 +17,7 @@
 + (CGFloat) GetBlueFromUIColor:(UIColor *)color;
 + (CGFloat) GetAlphaFromUIColor:(UIColor *)color;
 
-+ (NSInteger) GetColorByteFromWeight:(CGFloat)weight;
++ (UInt8) GetColorByteFromWeight:(CGFloat)weight;
 
 +(UIColor *) MixColor:(UIColor *)color withColor:(UIColor *)otherColor;
 +(UIColor *) MixColor:(UIColor *)color withColor:(UIColor *)otherColor withWeight:(CGFloat)weight;

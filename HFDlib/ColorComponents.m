@@ -89,9 +89,12 @@
 	return -1;
 }
 
-+ (NSInteger) GetColorByteFromWeight:(CGFloat)weight
++ (UInt8) GetColorByteFromWeight:(CGFloat)weight
 {
-	return 255 * weight;
+    if(weight > 1.0)
+        return (UInt8)255;
+    else
+        return (UInt8)(255 * weight);
 }
 
 +(UIColor *) MixColor:(UIColor *)color withColor:(UIColor *)otherColor
