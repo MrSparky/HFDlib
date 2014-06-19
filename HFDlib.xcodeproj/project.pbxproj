@@ -19,6 +19,10 @@
 		EC6181BC1944EB36003143A8 /* NSStreamTcpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181BB1944EB36003143A8 /* NSStreamTcpHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EC6181BF1946D87B003143A8 /* ColorComponentsTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181BE1946D87B003143A8 /* ColorComponentsTestCase.m */; };
 		EC6181C11946E465003143A8 /* HFDPacketTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6181C01946E465003143A8 /* HFDPacketTestCase.m */; };
+		EC6181C219496D7C003143A8 /* ColorComponents.h in Copy Files */ = {isa = PBXBuildFile; fileRef = EC6181B71944E8CF003143A8 /* ColorComponents.h */; };
+		EC6181C319496D9D003143A8 /* HFDTypes.h in Copy Files */ = {isa = PBXBuildFile; fileRef = EC6181BD19451EAA003143A8 /* HFDTypes.h */; };
+		EC6181C419496DAB003143A8 /* HFDInterface.h in Copy Files */ = {isa = PBXBuildFile; fileRef = EC6181B11944E629003143A8 /* HFDInterface.h */; };
+		EC6181C519496DB7003143A8 /* HFDPacket.h in Copy Files */ = {isa = PBXBuildFile; fileRef = EC6181B31944E629003143A8 /* HFDPacket.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EC6181861944E60C003143A8 /* CopyFiles */ = {
+		EC6181861944E60C003143A8 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				EC6181C519496DB7003143A8 /* HFDPacket.h in Copy Files */,
+				EC6181C419496DAB003143A8 /* HFDInterface.h in Copy Files */,
+				EC6181C319496D9D003143A8 /* HFDTypes.h in Copy Files */,
+				EC6181C219496D7C003143A8 /* ColorComponents.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -170,7 +179,7 @@
 			buildPhases = (
 				EC6181841944E60C003143A8 /* Sources */,
 				EC6181851944E60C003143A8 /* Frameworks */,
-				EC6181861944E60C003143A8 /* CopyFiles */,
+				EC6181861944E60C003143A8 /* Copy Files */,
 			);
 			buildRules = (
 			);
